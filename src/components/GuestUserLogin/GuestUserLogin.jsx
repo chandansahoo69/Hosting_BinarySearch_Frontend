@@ -6,7 +6,7 @@ import { setAuth } from "../../store/authSlice";
 const GuestUserLogin = () => {
   const dispatch = useDispatch();
   const [email, setEmail] = useState("dummyuser@gmail.com");
-  const [password, setPassword] = useState("123123123");
+  const [password, setPassword] = useState("binarysearch");
 
   async function submitHandler() {
     if (!email || !password) return;
